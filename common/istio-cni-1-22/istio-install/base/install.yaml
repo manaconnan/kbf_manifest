@@ -2972,7 +2972,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: spec.nodeName
-        image: docker.io/istio/proxyv2:1.22.1
+        image: inf-repo-registry.cn-wulanchabu.cr.aliyuncs.com/infly/istio/proxyv2:1.22.1
         name: istio-proxy
         ports:
         - containerPort: 15021
