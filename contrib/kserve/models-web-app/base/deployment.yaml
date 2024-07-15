@@ -14,7 +14,7 @@ spec:
         app.kubernetes.io/component: kserve-models-web-app
     spec:
       containers:
-      - image: kserve/models-web-app:latest
+      - image: inf-repo-registry.cn-wulanchabu.cr.aliyuncs.com/infly/models-web-app:v0.13.0-rc.0
         imagePullPolicy: Always
         name: kserve-models-web-app
         envFrom:

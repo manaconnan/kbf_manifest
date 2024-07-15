@@ -9,7 +9,7 @@ spec:
         sidecar.istio.io/inject: "false"
     spec:
       containers:
-      - image: docker.io/kubeflownotebookswg/poddefaults-webhook
+      - image: inf-repo-registry.cn-wulanchabu.cr.aliyuncs.com/infly/kubeflownotebookswg/poddefaults-webhook
         name: admission-webhook
         volumeMounts:
         - mountPath: /etc/webhook/certs

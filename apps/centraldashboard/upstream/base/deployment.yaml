@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: centraldashboard
-        image: docker.io/kubeflownotebookswg/centraldashboard
+        image: inf-repo-registry.cn-wulanchabu.cr.aliyuncs.com/infly/kubeflownotebookswg/centraldashboard:v1.9.0-rc.2
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
